@@ -1,0 +1,20 @@
+{
+"env": {
+     "browser": true,
+  "commonjs": true,
+  "es6": true,
+  "jquery": true
+},
+"plugins": [
+    "no-unused-vars-rest"
+  ],
+  "rules": {
+    "no-unused-vars": 0,
+    "no-unused-vars-rest/no-unused-vars": [2, {"ignoreDestructuredVarsWithRest": true}]
+  },
+  resolve: {
+    alias: {
+        'jquery-ui': 'jquery-ui/ui'
+    }
+},
+}
