@@ -1,0 +1,174 @@
+@import "bootstrap.min.css";
+@import "freelancer.css";
+@import "font-awesome.min.css";
+@import "gridstack.css";
+@import "gridstack-demo.css";
+@import "bootstrap-theme.min.css";
+
+        img {
+                margin: 10px;
+            }
+            
+            .bs-example {
+                margin: 20px;
+            }
+            
+            .imgsize {
+                height: 100px;
+                width:100px;
+            }
+
+
+.client-image {
+width:100px;
+height: 100px;
+
+  position: relative;
+  border: 1px solid black
+
+}
+
+
+
+
+
+
+.main-container {
+background-color: #575766
+}
+/*
+.body_background {
+background-image: url('../img/istock.jpg');
+
+
+}*/
+
+#project-list-id {
+    margin-top: 15px;
+}
+
+.popover-slider {
+    margin-top:8.4%;
+    height: 60%;
+    color: black;
+
+}
+.vertical-text-left {
+transform: rotate(90deg);
+transform-origin: left top 0;
+alignment-adjust: middle;
+margin-left: 20px;
+}
+
+.vertical-text-right {
+transform: rotate(270deg);
+transform-origin: right top 0;
+margin-top: 146px;
+margin-right: 50px;
+
+
+}
+.content-center{
+    margin-top: 145px;
+     
+}
+
+
+
+/******************Conatact us********************/
+
+.mr20{
+//margin-right: 20px;
+}
+
+.mcontent{min-height: 153px;
+          background: #ebebeb url(./css/img/main.gif) left top repeat-x;
+          width: 730px;
+          border-left: 1px solid #f7f7f7;
+         // margin-top: 20px;
+         // margin-bottom: 20px;
+          height: 200px;
+          border-right: 1px solid #f7f7f7;
+          padding: 20px;
+          height: 250px;
+          box-shadow: 10px 10px 5px #888888;
+}
+
+.box{
+border: 1px solid #fff;
+background: #ededed;
+-moz-box-shadow: 1px 2px 3px #C6C5C5;
+-webkit-box-shadow: 1px 2px 3px #C6C5C5;
+float: left;
+text-align: left;
+min-height: 160px;
+padding: 18px;
+width: 213px;
+margin-top: 20px;
+}
+
+.box2{
+border: 1px solid #fff;
+background: #ededed;
+-moz-box-shadow: 1px 2px 3px #C6C5C5;
+-webkit-box-shadow: 1px 2px 3px #C6C5C5;
+float: left;
+text-align: left;
+min-height: 160px;
+padding: 15px;
+width: 180px;
+margin-top: 20px;
+}
+
+.box2 a{
+float: left;
+margin-right: 10px;
+}
+
+a.get{
+background: #3e7a9a;
+color: #fff;
+border: 1px solid #41728c;
+padding: 3px 7px;
+font-size: 16px;
+}
+
+a:hover.get{
+background: #41728c;
+border: 1px solid #3e7a9a;
+text-decoration: none;
+}
+
+
+.mr20{
+margin-right: 20px;
+
+}
+
+#content{
+background: url(http://techforceinfotech.com/test/wp-content/themes/flaton/images/mid_bg.jpg) center top no-repeat;
+padding-top: 125px;
+text-align: center;
+}
+
+p{
+font-size: 13px;
+color: #656565;
+line-height: 20px;
+margin-bottom: 10px;
+}
+
+a{
+color: #2a6888;
+text-decoration: none;
+/*height: 98px;*/
+}
+
+a:hover{
+text-decoration: underline;
+}
+
+.scroll-panel{
+    overflow-y: scroll;
+    min-height: 150px; max-height: 150px;
+}
